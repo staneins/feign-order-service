@@ -1,13 +1,13 @@
 package com.kaminsky.feignconfig.entity;
 
-public class Order {
+public class OrderRequest {
     private Long id;
     private String productName;
     private Long quantity;
     private String userEmail;
     private Status status;
 
-    public Order(Long id, String productName, Long quantity, String userEmail, Status status) {
+    public OrderRequest(Long id, String productName, Long quantity, String userEmail, Status status) {
         this.id = id;
         this.productName = productName;
         this.quantity = quantity;
