@@ -19,7 +19,7 @@ public class OrderController {
     @PostMapping
     public ResponseEntity<String> createOrder(@RequestBody OrderRequest orderRequest) {
         orderService.createOrder(orderRequest);
-        return ResponseEntity.ok("Order created and notification sent!");
+        return ResponseEntity.ok("Order created!");
     }
 }
 
